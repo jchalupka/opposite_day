@@ -1,0 +1,19 @@
+{
+  "name": "opposite_day",
+  "version": "1.0.0",
+  "description": "",
+  "main": "opposite.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "datamuse": "^1.0.5",
+    "encoding": "^0.1.12",
+    "fs": "0.0.1-security",
+    "iconv": "^2.3.0",
+    "node-fetch": "^2.1.1"
+  }
+}
