@@ -1,3 +1,9 @@
+/**
+ * Module which generates opposite text.
+ * 
+ * Author: Jordan Chalupka
+ */
+
 const datamuseConnection = require('./datamuseConnection');
 
 const opposite = async (sampleText) => {
@@ -37,11 +43,5 @@ const opposite = async (sampleText) => {
     .then(console.log)
     .catch(err => console.error(err));
 };
-
-const fs = require('fs');
-
-// read in the input file
-const sampleText = fs.readFileSync('./input.txt', 'utf8');
-opposite(sampleText);
 
 module.exports = opposite;

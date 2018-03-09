@@ -1,3 +1,9 @@
+/**
+ * Connection to the datamuse api.
+ * 
+ * Author: Jordan Chalupka
+ */
+
 const querystring = require('querystring');
 const datamuse = require('datamuse');
 
